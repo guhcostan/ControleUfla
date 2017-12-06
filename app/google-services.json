@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "392067112287",
+    "firebase_url": "https://controleufla.firebaseio.com",
+    "project_id": "controleufla",
+    "storage_bucket": "controleufla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392067112287:android:6a7b9fe259e69322",
+        "android_client_info": {
+          "package_name": "controleufla.ufla.controleufla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392067112287-7nhsonvr79j1lrccojmgb98eibrfcf95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "controleufla.ufla.controleufla",
+            "certificate_hash": "51998acd4729fbaf7087b3b50870b2efc7ebb271"
+          }
+        },
+        {
+          "client_id": "392067112287-d14rdrq44qqhrrekjk957iql8d8fv732.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnmVMIzjMQTu4fiSADUt0QE4c9KRFRIgw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392067112287-d14rdrq44qqhrrekjk957iql8d8fv732.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
