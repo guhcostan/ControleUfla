@@ -28,12 +28,6 @@
         android:text="Consultar salas" />
 
     <Button
-        android:id="@+id/reservaButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Reservar computador" />
-
-    <Button
         android:id="@+id/escaniarButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -25,7 +25,7 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".CadastroActivity" />
-        <activity android:name=".ConsultaActivity"></activity>
+        <activity android:name=".ConsultaActivity" />
     </application>
 
 </manifest>
