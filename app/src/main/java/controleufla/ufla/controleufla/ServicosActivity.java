@@ -37,6 +37,8 @@ public class ServicosActivity extends Activity {
             public void onClick(View v) {
                 database = FirebaseDatabase.getInstance().getReference();
                 database.child("Salas/DCC-02/computadores/0/ocupado").setValue(false);
+                Intent intent = new Intent(ServicosActivity.this, QrActivity.class);
+                startActivity(intent);
             }
         });
         sairBotao.setOnClickListener(new View.OnClickListener() {

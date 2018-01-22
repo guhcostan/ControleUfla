@@ -26,6 +26,7 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".CadastroActivity" />
         <activity android:name=".ConsultaActivity" />
+        <activity android:name=".QrActivity"></activity>
     </application>
 
 </manifest>
