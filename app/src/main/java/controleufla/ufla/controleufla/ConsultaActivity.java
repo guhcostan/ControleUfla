@@ -62,7 +62,6 @@ public class ConsultaActivity extends Activity {
         final int mes = calendar.get(Calendar.MONTH);
         final int hora = calendar.get(Calendar.HOUR_OF_DAY);
         final int minuto = calendar.get(Calendar.MINUTE);
-        texto = (TextView) findViewById(R.id.textView2);
         databaseReference.addValueEventListener(new ValueEventListener(){
             @Override
             public void onDataChange(DataSnapshot dataSnapshot){

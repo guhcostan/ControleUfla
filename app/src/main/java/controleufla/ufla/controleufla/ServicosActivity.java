@@ -33,6 +33,7 @@ public class ServicosActivity extends Activity {
     private GregorianCalendar calendar;
     private Button sairBotao;
     private FirebaseAuth mAuth;
+    private Button sobreBotao;
     static final String ACTION_SCAN = "com.google.zxing.client.android.SCAN";
 
     @Override
@@ -43,6 +44,13 @@ public class ServicosActivity extends Activity {
         escaniarBotao = findViewById(R.id.escaniarButton);
         sairBotao = findViewById(R.id.sairButton);
         calendar = new GregorianCalendar();
+        sobreBotao = findViewById(R.id.sobreButton);
+        sobreBotao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(ServicosActivity.this,"Programa criado por Gustavo Costa, Gustavo Reis e Danilo Guarizzo", Toast.LENGTH_LONG).show();
+            }
+        });
         consultarBotao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

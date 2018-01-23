@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="scanQR"
-        android:text="Escaniar codigo Qr" />
+        android:text="Escanear codigo Qr" />
 
     <Button
         android:id="@+id/sobreButton"
