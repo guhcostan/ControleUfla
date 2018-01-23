@@ -31,6 +31,7 @@
         android:id="@+id/escaniarButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="scanQR"
         android:text="Escaniar codigo Qr" />
 
     <Button
@@ -47,4 +48,19 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="sair" />
+
+    <TextView
+        android:id="@+id/scan_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_toStartOf="@+id/textView1"
+        android:textIsSelectable="true" />
+    <TextView
+        android:id="@+id/scan_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/scan_format" />
 </LinearLayout>
