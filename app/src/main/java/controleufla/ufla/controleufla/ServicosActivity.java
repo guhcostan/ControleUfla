@@ -34,6 +34,7 @@ public class ServicosActivity extends Activity {
     private Button sairBotao;
     private FirebaseAuth mAuth;
     private Button sobreBotao;
+    private Button computadorButton;
     static final String ACTION_SCAN = "com.google.zxing.client.android.SCAN";
 
     @Override
@@ -45,6 +46,14 @@ public class ServicosActivity extends Activity {
         sairBotao = findViewById(R.id.sairButton);
         calendar = new GregorianCalendar();
         sobreBotao = findViewById(R.id.sobreButton);
+        computadorButton = findViewById(R.id.detalhesbotao);
+        computadorButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ServicosActivity.this, DetalhesComp.class);
+                startActivity(intent);
+            }
+        });
         sobreBotao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -54,13 +63,8 @@ public class ServicosActivity extends Activity {
         consultarBotao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
                 Intent intent = new Intent(ServicosActivity.this, ConsultaActivity.class);
                 startActivity(intent);
-=======
-                database = FirebaseDatabase.getInstance().getReference();
-                database.child("Salas/DCC-02/computadores/0/ocupado").setValue(false);
->>>>>>> parent of 665d16b... Ver se funcionou
             }
         });
         sairBotao.setOnClickListener(new View.OnClickListener() {

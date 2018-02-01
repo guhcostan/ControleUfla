@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="controleufla.ufla.controleufla.DetalhesComp">
+
+    <Button
+        android:id="@+id/botaoDetalhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nComp"
+        android:layout_toEndOf="@+id/nComp"
+        android:text="Pesquisar" />
+
+    <EditText
+        android:id="@+id/nComp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nomeSala"
+        android:layout_alignBottom="@+id/nomeSala"
+        android:layout_toEndOf="@+id/nomeSala"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="nº Comp" />
+
+    <EditText
+        android:id="@+id/nomeSala"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Sala" />
+
+    <TextView
+        android:id="@+id/detalhesComp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/botaoDetalhe"
+        android:layout_alignStart="@+id/nomeSala"
+        android:layout_below="@+id/botaoDetalhe"
+        android:layout_marginTop="44dp" />
+</RelativeLayout>

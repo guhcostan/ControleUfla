@@ -22,6 +22,7 @@ public class Computador {
         this.ultimoUsuario = ultimoUsuario;
     }
 
+    public Computador(){}
     private String ultimoUsuario;
 
     public boolean isOcupado() {

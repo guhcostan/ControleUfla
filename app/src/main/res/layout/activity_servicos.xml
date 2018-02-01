@@ -35,6 +35,13 @@
         android:text="Escanear codigo Qr" />
 
     <Button
+        android:id="@+id/detalhesbotao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="scanQR"
+        android:text="Consultar computador" />
+
+    <Button
         android:id="@+id/sobreButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
