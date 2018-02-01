@@ -54,8 +54,13 @@ public class ServicosActivity extends Activity {
         consultarBotao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 Intent intent = new Intent(ServicosActivity.this, ConsultaActivity.class);
                 startActivity(intent);
+=======
+                database = FirebaseDatabase.getInstance().getReference();
+                database.child("Salas/DCC-02/computadores/0/ocupado").setValue(false);
+>>>>>>> parent of 665d16b... Ver se funcionou
             }
         });
         sairBotao.setOnClickListener(new View.OnClickListener() {
